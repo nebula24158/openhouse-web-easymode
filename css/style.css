@@ -49,6 +49,13 @@ h6 {
 	font-weight: 400;
 	font-family: "Cairo", sans-serif;
 }
+.set-bg {
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-position: center; /* Centers the image within the box */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Make sure the width is controlled */
+    height: 300px; /* Set the height of the box (adjust as needed) */
+}
 
 h1 {
 	font-size: 70px;
